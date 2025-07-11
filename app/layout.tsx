@@ -31,7 +31,7 @@ export default function RootLayout({
         <ThemeProvider
           attribute='class'
           enableSystem
-          defaultTheme='light'
+          defaultTheme='dark'
           themes={['light', 'dark']}
         >
           {children}
