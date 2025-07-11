@@ -22,7 +22,7 @@ export const NotificationButtons = ({ setOpen }: INotificationButtonsProps) => {
         type='submit'
         className='h-[44px] px-6 rounded-[36px] text-customGrey-25 bg-customPrimary-500 text-[16px] font-[500]'
       >
-        <span>
+        <span className="md:flex hidden">
           <CheckCheck className='w-6 text-customGrey-25' />
         </span>
         Mark all as read
